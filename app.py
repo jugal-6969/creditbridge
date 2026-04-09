@@ -59,21 +59,26 @@ div[data-testid="stRadio"] label{{color:{MUTED}!important;font-size:13px;}}
 """, unsafe_allow_html=True)
 
 PROFILES = {
-    "Arjun Mehta - arrived 8 months ago": dict(
-        name="Arjun Mehta", nat="Indian", visa="Employment",
+    "Jugal Bhagat - arrived 8 months ago": dict(
+        name="Jugal Bhagat", nat="Indian", visa="Employment",
         employer="Keeta Technologies LLC", salary=12500,
         rent=4, sal=4, telco=3, util=4, ejari=0.7,
         telco_mo=8, exp=0.52, wps=True, months_in_uae=8),
-    "Mohamed Hassan - arrived 5 months ago": dict(
-        name="Mohamed Hassan", nat="Egyptian", visa="Employment",
+    "Radhika Chopra - arrived 5 months ago": dict(
+        name="Radhika Chopra", nat="Indian", visa="Employment",
         employer="ENOC Group", salary=8200,
         rent=3, sal=3, telco=2, util=3, ejari=0.4,
         telco_mo=5, exp=0.68, wps=True, months_in_uae=5),
-    "Priya Nair - arrived 14 months ago": dict(
-        name="Priya Nair", nat="Indian", visa="Freelance",
+    "Dua Aamir - arrived 14 months ago": dict(
+        name="Dua Aamir", nat="Pakistani", visa="Freelance",
         employer="Self-employed", salary=18000,
         rent=4, sal=3, telco=4, util=4, ejari=1.2,
         telco_mo=14, exp=0.41, wps=False, months_in_uae=14),
+    "Ariba Khan - arrived 3 months ago": dict(
+        name="Ariba Khan", nat="Pakistani", visa="Employment",
+        employer="Dubai Holdings", salary=9500,
+        rent=3, sal=4, telco=2, util=3, ejari=0.2,
+        telco_mo=3, exp=0.61, wps=True, months_in_uae=3),
 }
 
 BANKS = [
